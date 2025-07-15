@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mon Site</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div style="display: flex; align-items: center; gap: 20px;">
+      <img src="img/490116837_2203392646799752_8591936042512248514_n.jpg" alt="Logo Time2gether" style="width:60px; height:auto;">
+      <nav>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="about.html">À propos</a></li>
+          <li><a href="Nos services.html">Nos services</a></li>
+          <li><a href="Nos produits.html">Nos produits</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <h1>Time2gether</h1>
+  <p style="text-align: center;">
+    Créez des moments à deux, de complicité, d’humour et de partage, pour des souvenirs gravés à jamais.
+  </p>
+
+  <section class="bloc-apropos">
+    <h2>À propos</h2>
+    <img src="img/490116837_2203392646799752_8591936042512248514_n.jpg" alt="À propos Time2gether" style="width:150px; height:auto; display:block; margin-bottom:10px;">
+    <p>
+      Découvrez notre mission et notre équipe passionnée sur la page <a href="about.html">À propos</a>.
+    </p>
+    <a class="btn" href="about.html">En savoir plus</a>
+  </section>
+
+  <section class="bloc-services" style="background: #fff;">
+    <div style="display: flex; align-items: center; justify-content: flex-start; gap: 32px; max-width: 1100px; margin: 0 auto; padding-left: 40px;">
+      <img src="img/Services.png" alt="Nos services Time2gether" style="width:450px; height:auto; display:block; margin-bottom:10px;">
+      <div style="text-align: left;">
+        <h2>Services</h2>
+        <p>
+          Découvrez nos services pour créer des moments inoubliables à deux : activités, ateliers, événements personnalisés et bien plus encore.
+        </p>
+        <a class="btn" href="Nos services.html">Voir les services</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="bloc-produits">
+    <h2>Nos produits</h2>
+    <img src="img/produit.jpg" alt="Nos produits Time2gether" style="width:150px; height:auto; display:block; margin-bottom:10px;">
+    <p>
+      Découvrez notre sélection de produits pour accompagner vos moments à deux : jeux, coffrets, accessoires et bien plus encore.
+    </p>
+    <a class="btn" href="Nos produits.html">Voir les produits</a>
+  </section>
+
+  <section class="bloc-contact">
+    <h2>Contact</h2>
+    <img src="img/contact.jpg" alt="Contact Time2gether" style="width:150px; height:auto; display:block; margin-bottom:10px;">
+    <p>
+      Une question, une suggestion ? Contactez-nous via notre formulaire dédié.
+    </p>
+    <form>
+      <label for="prenom">Prénom :</label>
+      <input type="text" id="prenom" name="prenom" required>
+
+      <label for="nom">Nom :</label>
+      <input type="text" id="nom" name="nom" required>
+
+      <label for="email">Email :</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message :</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+  <footer>
+    <p>&copy; 2025 Time2gether. Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
