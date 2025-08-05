@@ -190,37 +190,40 @@ section img {
 /* === RUBRIQUE À PROPOS (Accueil & page dédiée) === */
 .apropos-container {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 40px;
+  align-items: center;            /* Centrage vertical */
+  justify-content: space-between;
   max-width: 1100px;
   margin: 40px auto;
-  padding: 20px;
+  padding: 40px 40px;
+  background: #fff;
+  box-shadow: 0 4px 16px rgba(128, 0, 32, 0.07);
+  border-radius: 12px;
+  gap: 40px;
 }
 
 .apropos-img {
-  width: 300px;
+  width: 48%;
   height: auto;
+  object-fit: cover;
   border-radius: 16px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-left: -20px; /* pousse légèrement à gauche */
 }
 
 .apropos-text {
-  flex: 1;
-  text-align: left;
+  width: 48%;
+  text-align: justify;
+  font-size: 1.2em;
+  line-height: 1.8;
+  color: #333;
 }
 
 .apropos-text h2 {
   color: #800020;
-  margin-bottom: 10px;
+  font-size: 1.6em;
+  margin-bottom: 12px;
+  text-align: left;
 }
-
-.apropos-text p {
-  font-size: 1.1em;
-  line-height: 1.6;
-  color: #333;
-}
-
 /* === DIVERS === */
 .main-container {
   margin-left: 120px;
