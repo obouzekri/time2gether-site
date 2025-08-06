@@ -9,7 +9,7 @@
 <body>
   <header>
   <div style="display: flex; align-items: center; gap: 120px;">
-    <img src="img/490116837_2203392646799752_8591936042512248514_n.jpg" alt="Logo Time2gether"
+    <img src="img/490116837_2203392646799752_8591936042512248514_n.png" alt="Logo Time2gether"
      style="width:60px; height:auto; margin-left:40px;">
     <nav>
       <ul>
@@ -22,21 +22,30 @@
     </nav>
   </div>
 </header>
-  <h1>Contactez-nous</h1>
-  <form>
-    <label for="prenom">Prénom :</label>
-    <input type="text" id="prenom" name="prenom" required>
+   <section class="bloc-contact">
+    <div class="contact-container">
+      <img src="img/contact.png" alt="Contact Time2gether" class="contact-img">
+      <div class="contact-text-form">
+        <h2>Contact</h2>
+        <p>
+          Vous avez une question ou une demande particulière ? N’hésitez pas à nous écrire via ce formulaire :
+        </p>
+        <form>
+          <label for="prenom">Prénom :</label>
+          <input type="text" id="prenom" name="prenom" required>
 
-    <label for="nom">Nom :</label>
-    <input type="text" id="nom" name="nom" required>
+          <label for="nom">Nom :</label>
+          <input type="text" id="nom" name="nom" required>
 
-    <label for="email">Email :</label>
-    <input type="email" id="email" name="email" required>
+          <label for="email">Email :</label>
+          <input type="email" id="email" name="email" required>
 
-    <label for="message">Message :</label>
-    <textarea id="message" name="message" rows="5" required></textarea>
+          <label for="message">Message :</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
 
-    <button type="submit">Envoyer</button>
-  </form>
+          <button type="submit">Envoyer</button>
+        </form>
+      </div>
+    </div>
+  </section>
 </body>
-</html>
